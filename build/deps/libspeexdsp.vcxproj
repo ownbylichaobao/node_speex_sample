@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D6B28626-70D0-0C0D-0F3E-3C04AFF309E5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libspeexdsp</RootNamespace>
+    <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Locals">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props"/>
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros"/>
+  <PropertyGroup>
+    <ExecutablePath>$(ExecutablePath);$(MSBuildProjectDirectory)\..\..\deps\bin\;$(MSBuildProjectDirectory)\..\..\deps\bin\</ExecutablePath>
+    <IntDir>$(Configuration)\obj\$(ProjectName)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)</TargetName>
+    <TargetPath>$(OutDir)\$(ProjectName)$(TargetExt)</TargetPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\15275\.node-gyp\8.9.3\include\node;C:\Users\15275\.node-gyp\8.9.3\src;C:\Users\15275\.node-gyp\8.9.3\deps\openssl\config;C:\Users\15275\.node-gyp\8.9.3\deps\openssl\openssl\include;C:\Users\15275\.node-gyp\8.9.3\deps\uv\include;C:\Users\15275\.node-gyp\8.9.3\deps\zlib;C:\Users\15275\.node-gyp\8.9.3\deps\v8\include;..\..\deps\config\speex-1.2.0\win\x64;..\..\deps\speex-1.2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/bigobj /MP %(AdditionalOptions)</AdditionalOptions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4351;4355;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>false</ExceptionHandling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <OmitFramePointers>false</OmitFramePointers>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=libspeexdsp;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;PIC;HAVE_CONFIG_H;_USE_MATH_DEFINES;DEBUG;_DEBUG;V8_ENABLE_CHECKS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\Users\15275\.node-gyp\8.9.3\x64\node.lib&quot;</AdditionalDependencies>
+      <AdditionalOptions>/ignore:4199 %(AdditionalOptions)</AdditionalOptions>
+      <AllowIsolation>true</AllowIsolation>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <DelayLoadDLLs>iojs.exe;node.exe;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapExports>true</MapExports>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:\Users\15275\.node-gyp\8.9.3\include\node;C:\Users\15275\.node-gyp\8.9.3\src;C:\Users\15275\.node-gyp\8.9.3\deps\openssl\config;C:\Users\15275\.node-gyp\8.9.3\deps\openssl\openssl\include;C:\Users\15275\.node-gyp\8.9.3\deps\uv\include;C:\Users\15275\.node-gyp\8.9.3\deps\zlib;C:\Users\15275\.node-gyp\8.9.3\deps\v8\include;..\..\deps\config\speex-1.2.0\win\x64;..\..\deps\speex-1.2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=libspeexdsp;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;PIC;HAVE_CONFIG_H;_USE_MATH_DEFINES;DEBUG;_DEBUG;V8_ENABLE_CHECKS;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\15275\.node-gyp\8.9.3\include\node;C:\Users\15275\.node-gyp\8.9.3\src;C:\Users\15275\.node-gyp\8.9.3\deps\openssl\config;C:\Users\15275\.node-gyp\8.9.3\deps\openssl\openssl\include;C:\Users\15275\.node-gyp\8.9.3\deps\uv\include;C:\Users\15275\.node-gyp\8.9.3\deps\zlib;C:\Users\15275\.node-gyp\8.9.3\deps\v8\include;..\..\deps\config\speex-1.2.0\win\x64;..\..\deps\speex-1.2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4267;4351;4355;4800;4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>false</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <OmitFramePointers>true</OmitFramePointers>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=libspeexdsp;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;PIC;HAVE_CONFIG_H;_USE_MATH_DEFINES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Lib>
+      <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\Users\15275\.node-gyp\8.9.3\x64\node.lib&quot;</AdditionalDependencies>
+      <AdditionalOptions>/ignore:4199 %(AdditionalOptions)</AdditionalOptions>
+      <AllowIsolation>true</AllowIsolation>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <DelayLoadDLLs>iojs.exe;node.exe;%(DelayLoadDLLs)</DelayLoadDLLs>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <MapExports>true</MapExports>
+      <OptimizeReferences>true</OptimizeReferences>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>C:\Users\15275\.node-gyp\8.9.3\include\node;C:\Users\15275\.node-gyp\8.9.3\src;C:\Users\15275\.node-gyp\8.9.3\deps\openssl\config;C:\Users\15275\.node-gyp\8.9.3\deps\openssl\openssl\include;C:\Users\15275\.node-gyp\8.9.3\deps\uv\include;C:\Users\15275\.node-gyp\8.9.3\deps\zlib;C:\Users\15275\.node-gyp\8.9.3\deps\v8\include;..\..\deps\config\speex-1.2.0\win\x64;..\..\deps\speex-1.2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NODE_GYP_MODULE_NAME=libspeexdsp;USING_UV_SHARED=1;USING_V8_SHARED=1;V8_DEPRECATION_WARNINGS=1;WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_HAS_EXCEPTIONS=0;PIC;HAVE_CONFIG_H;_USE_MATH_DEFINES;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\deps\binding.gyp"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\bits.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\cb_search.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\exc_5_64_table.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\exc_5_256_table.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\exc_8_128_table.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\exc_10_16_table.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\exc_10_32_table.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\exc_20_32_table.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\filters.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\gain_table.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\gain_table_lbr.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\hexc_10_32_table.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\hexc_table.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\high_lsp_tables.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\kiss_fft.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\kiss_fftr.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\lpc.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\lsp.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\lsp_tables_nb.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\ltp.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\modes.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\modes_wb.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\nb_celp.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\quant_lsp.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\smallft.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\speex.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\speex_callbacks.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\speex_header.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\stereo.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\vbr.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\vq.c"/>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\window.c"/>
+    <ClCompile Include="C:\Users\15275\AppData\Roaming\npm\node_modules\node-gyp\src\win_delay_load_hook.cc"/>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets"/>
+  <ImportGroup Label="ExtensionTargets"/>
+</Project>

@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0">
+      <UniqueIdentifier>{86595464-FE83-830A-46E6-28ED462C45B2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps\speex-1.2.0\libspeex">
+      <UniqueIdentifier>{70876F6F-EA3C-9FF2-311D-FCFA7BEE059A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:">
+      <UniqueIdentifier>{7B735499-E5DD-1C2B-6C26-70023832A1CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users">
+      <UniqueIdentifier>{E9F714C1-DA89-54E2-60CF-39FEB20BF756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\15275">
+      <UniqueIdentifier>{8E4A40F4-BACF-705D-FE63-80F7F2479925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\15275\AppData">
+      <UniqueIdentifier>{F852EB63-437C-846A-220F-8D9ED6DAEC1D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\15275\AppData\Roaming">
+      <UniqueIdentifier>{D51E5808-912B-5C70-4BB7-475D1DBFA067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\15275\AppData\Roaming\npm">
+      <UniqueIdentifier>{741E0E76-39B2-B1AB-9FA1-F1A20B16F295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\15275\AppData\Roaming\npm\node_modules">
+      <UniqueIdentifier>{56DF7A98-063D-FB9D-485C-089023B4C16A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\15275\AppData\Roaming\npm\node_modules\node-gyp">
+      <UniqueIdentifier>{77348C0E-2034-7791-74D5-63C077DF5A3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="C:\Users\15275\AppData\Roaming\npm\node_modules\node-gyp\src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..">
+      <UniqueIdentifier>{739DB09A-CC57-A953-A6CF-F64FA08E4FA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\..\deps">
+      <UniqueIdentifier>{D8C1C9B5-38B1-FC5D-54EB-0CB99232FA56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\bits.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\cb_search.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\exc_5_64_table.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\exc_5_256_table.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\exc_8_128_table.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\exc_10_16_table.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\exc_10_32_table.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\exc_20_32_table.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\filters.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\gain_table.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\gain_table_lbr.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\hexc_10_32_table.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\hexc_table.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\high_lsp_tables.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\kiss_fft.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\kiss_fftr.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\lpc.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\lsp.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\lsp_tables_nb.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\ltp.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\modes.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\modes_wb.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\nb_celp.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\quant_lsp.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\smallft.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\speex.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\speex_callbacks.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\speex_header.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\stereo.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\vbr.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\vq.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\deps\speex-1.2.0\libspeex\window.c">
+      <Filter>..\..\deps\speex-1.2.0\libspeex</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\15275\AppData\Roaming\npm\node_modules\node-gyp\src\win_delay_load_hook.cc">
+      <Filter>C:\Users\15275\AppData\Roaming\npm\node_modules\node-gyp\src</Filter>
+    </ClCompile>
+    <None Include="..\..\deps\binding.gyp">
+      <Filter>..\..\deps</Filter>
+    </None>
+  </ItemGroup>
+</Project>
